@@ -5,7 +5,7 @@ namespace DDDHelpers;
 use DDDHelpers\Commands\Test;
 use Illuminate\Support\ServiceProvider;
 
-class ContactFormServiceProvider extends ServiceProvider {
+class DDDHelpersServiceProvider extends ServiceProvider {
 
     public function boot()
     {
