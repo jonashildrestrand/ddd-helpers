@@ -1,0 +1,15 @@
+<?php
+
+namespace Flyt\{bounded_context}\Domain\Exceptions;
+
+use Exception;
+
+class {exception_name} extends Exception
+{
+    public function __construct()
+    {
+        $message = "[" . "" . "]";
+
+        parent::__construct($message);
+    }
+}

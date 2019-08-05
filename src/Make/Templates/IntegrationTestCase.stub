@@ -1,0 +1,16 @@
+<?php
+
+namespace Flyt\{bounded_context}\Tests;
+
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+use Tests\CreatesApplication;
+
+abstract class IntegrationTestCase extends BaseTestCase
+{
+    use CreatesApplication;
+
+    public function setUp()
+    {
+        parent::setUp();
+    }
+}

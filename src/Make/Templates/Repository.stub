@@ -1,0 +1,10 @@
+<?php
+
+namespace Flyt\{bounded_context}\Infrastructure\Repositories;
+
+use Flyt\{bounded_context}\Domain\Contracts\{contract_name};
+
+class {repository_name} implements {contract_name}
+{
+
+}

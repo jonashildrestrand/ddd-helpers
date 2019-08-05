@@ -1,0 +1,10 @@
+<?php
+
+namespace Flyt\{bounded_context}\Tests;
+
+use PHPUnit\Framework\TestCase as BaseTestCase;
+
+abstract class UnitTestCase extends BaseTestCase
+{
+
+}

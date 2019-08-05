@@ -1,0 +1,24 @@
+<?php
+
+namespace Flyt\{bounded_context}\Infrastructure\Providers;
+
+use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+
+class ServiceProvider extends BaseServiceProvider
+{
+    public function boot()
+    {
+        $this->registerRepositories();
+    }
+
+    private function registerRepositories()
+    {
+
+    }
+
+    public function provides(): array
+    {
+        return [
+        ];
+    }
+}

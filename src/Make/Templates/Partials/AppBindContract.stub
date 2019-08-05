@@ -1,0 +1,4 @@
+        $this->app->bind(
+            {contract_name}::class,
+            {repository_name}::class
+        );

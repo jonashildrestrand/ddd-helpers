@@ -1,0 +1,12 @@
+<?php
+
+namespace Flyt\{bounded_context}\Domain\Services;
+
+class {service_name}
+{
+    public function __construct(
+
+    ) {
+
+    }
+}

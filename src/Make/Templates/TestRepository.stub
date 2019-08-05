@@ -1,0 +1,11 @@
+<?php
+
+namespace Flyt\{bounded_context}\Tests\Infrastructure\Repositories;
+
+use Flyt\{bounded_context}\Infrastructure\Repositories\{repository_name};
+use Flyt\{bounded_context}\Tests\IntegrationTestCase as TestCase;
+
+class {repository_name}Test extends TestCase
+{
+	/** @todo: create test */
+}

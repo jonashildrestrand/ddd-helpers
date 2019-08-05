@@ -1,0 +1,18 @@
+<?php
+
+namespace Flyt\{bounded_context}\Tests\Domain\ValueObjects;
+
+use Flyt\{bounded_context}\Domain\ValueObjects\{value_object_name};
+use Flyt\{bounded_context}\Tests\UnitTestCase as TestCase;
+
+class {value_object_name}Test extends TestCase
+{
+    /** @test */
+    public function instantiated_when_constructor_is_called()
+    {
+        ${camel_case_value_object_name} = new {value_object_name}();
+        $this->assertInstanceOf({value_object_name}::class, ${camel_case_value_object_name});
+    }
+
+    /** @todo: create test */
+}

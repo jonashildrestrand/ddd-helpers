@@ -1,0 +1,8 @@
+<?php
+
+namespace Flyt\{bounded_context}\Domain\Contracts;
+
+interface {contract_name}
+{
+
+}

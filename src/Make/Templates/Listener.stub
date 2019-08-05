@@ -1,0 +1,18 @@
+<?php
+
+namespace Flyt\{bounded_context}\Infrastructure\Listeners;
+
+use Flyt\{event_bounded_context}\Domain\Events\{event_name};
+
+class {listener_name}
+{
+    public function __construct()
+    {
+
+    }
+
+    public function handle({event_name} $event)
+    {
+
+    }
+}

@@ -1,0 +1,16 @@
+<?php
+
+namespace Flyt\{bounded_context}\Domain\Entities;
+
+final class {entity_name}
+{
+	public function __construct()
+	{
+
+	}
+
+	public static function create(): self
+	{
+		return new self();
+	}
+}

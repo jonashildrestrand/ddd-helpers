@@ -1,0 +1,11 @@
+<?php
+
+namespace Flyt\{bounded_context}\Tests\Infrastructure\Listeners;
+
+use Flyt\{bounded_context}\Infrastructure\Listeners\{listener_name};
+use Flyt\{bounded_context}\Tests\IntegrationTestCase as TestCase;
+
+class {listener_name}Test extends TestCase
+{
+	/** @todo: create test */
+}
