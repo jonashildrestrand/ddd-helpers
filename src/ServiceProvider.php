@@ -2,16 +2,17 @@
 
 namespace DDDHelpers;
 
+use DDDHelpers\Commands\Test;
 use Illuminate\Support\ServiceProvider;
 
 class ContactFormServiceProvider extends ServiceProvider {
 
     public function boot()
     {
-    }
-
-    public function register()
-    {
-        dd("test");
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                Test::class,
+            ]);
+        }
     }
 }
